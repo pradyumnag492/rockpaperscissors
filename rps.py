@@ -1,4 +1,4 @@
-def main()
+def main():
   import random
   choice = input()
   comp = ["rock", "paper", "scissors"]
