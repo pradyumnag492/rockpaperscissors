@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rock-paper-scissors"
+version = "0.1.0"
+description = "A simple command-line Rock Paper Scissors game"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+rpsgame = "rps:main"
