@@ -1,6 +1,6 @@
 def main():
   import random
-  choice = input()
+  choice = input().lower()
   comp = ["rock", "paper", "scissors"]
   if choice == "rock":
     ran = random.choice(comp)
